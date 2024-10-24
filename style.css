@@ -314,6 +314,7 @@ body {
 
 .definition img {
   width: 80%;
+  border-radius: 5%;
 }
 
 /* MAIN - Definition Section - Responsive */
@@ -329,7 +330,6 @@ body {
 
   .definition img {
     width: 50%;
-    border-radius: 5%;
   }
 
   .definition-text {
