@@ -202,10 +202,13 @@ body {
   .introduction {
     background-size: cover;
     background-position: center;
-    width: 100vw;
     height: 250px;
+    /* Alttaki  üç kod bütün ekran genişliğinde olması için.*/
+    width: 100vw;
     position: relative;
     left: calc(-50vw + 50%);
+    /* max-width kodu taşma çözüm için eklendi. */
+    max-width: 1527px;
     bottom: 20px;
   }
 
@@ -268,6 +271,8 @@ body {
   .introduction {
     height: 600px;
     margin-bottom: 250px;
+    /* max-width kodu taşma çözüm için eklendi. */
+    max-width: 2560px;
   }
 
   .introduction-text {
@@ -584,10 +589,13 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
     height: 6vw;
+    /* Alttaki  üç kod bütün ekran genişliğinde olması için.*/
+    width: 100vw;
     position: relative;
     left: calc(-50vw + 50%);
+    /* max-width kodu taşma çözüm için eklendi. */
+    max-width: 1527px;
   }
 
   footer p {
@@ -611,6 +619,13 @@ footer p {
 
     footer p {
       font-size: 30px;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    footer {
+      /* max-width kodu taşma çözüm için eklendi. */
+      max-width: 2560px;
     }
   }
 }
